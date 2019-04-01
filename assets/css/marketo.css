@@ -1,0 +1,511 @@
+.marketo, .marketo_detail, .marketo_more {
+  font-family: "Rubik", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #222; }
+  .marketo ul, .marketo_detail ul, .marketo_more ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0; }
+  .marketo a, .marketo_detail a, .marketo_more a {
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    text-decoration: none;
+    color: #222; }
+  .marketo h3, .marketo_detail h3, .marketo_more h3 {
+    font-size: 1.75rem; }
+  .marketo header, .marketo_detail header, .marketo_more header {
+    background: #fafafa;
+    border: 1px solid #d7d7d7;
+    padding: 10px 0; }
+    .marketo header select, .marketo_detail header select, .marketo_more header select {
+      background: transparent;
+      border-color: transparent !important; }
+    .marketo header .free li, .marketo_detail header .free li, .marketo_more header .free li {
+      display: inline-block;
+      border-right: 1px solid #d7d7d7;
+      margin-right: 14px;
+      padding-right: 20px; }
+    .marketo header .follow li, .marketo_detail header .follow li, .marketo_more header .follow li {
+      margin-right: 8px;
+      display: inline-block; }
+      .marketo header .follow li a, .marketo_detail header .follow li a, .marketo_more header .follow li a {
+        font-size: 0.92857em; }
+    .marketo header .login li:first-child, .marketo_detail header .login li:first-child, .marketo_more header .login li:first-child {
+      display: inline-block;
+      border-right: 1px solid #d7d7d7;
+      margin-right: 14px;
+      padding-right: 20px; }
+    .marketo header .login li, .marketo_detail header .login li, .marketo_more header .login li {
+      display: inline-block; }
+  .marketo section .products .product, .marketo_detail section .products .product, .marketo_more section .products .product {
+    padding: 10px 30px 30px;
+    background-color: #FFFFFF;
+    border: 1px solid #efefef;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    position: relative;
+    margin-bottom: 24px; }
+    .marketo section .products .product img, .marketo_detail section .products .product img, .marketo_more section .products .product img {
+      -webkit-transition: all 0.4s ease;
+      -o-transition: all 0.4s ease;
+      transition: all 0.4s ease; }
+    .marketo section .products .product .like-item, .marketo_detail section .products .product .like-item, .marketo_more section .products .product .like-item {
+      opacity: 0;
+      -webkit-transition: all 0.4s ease;
+      -o-transition: all 0.4s ease;
+      transition: all 0.4s ease; }
+      .marketo section .products .product .like-item a, .marketo_detail section .products .product .like-item a, .marketo_more section .products .product .like-item a {
+        display: block;
+        color: #222;
+        width: 30px;
+        height: 30px;
+        margin-right: 10px;
+        line-height: 34px;
+        border-radius: 100%;
+        -webkit-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        text-align: center; }
+      .marketo section .products .product .like-item a:hover, .marketo_detail section .products .product .like-item a:hover, .marketo_more section .products .product .like-item a:hover {
+        background: red;
+        color: white; }
+    .marketo section .products .product span, .marketo_detail section .products .product span, .marketo_more section .products .product span {
+      font-size: 0.85714em;
+      margin-bottom: 4px; }
+      .marketo section .products .product span a, .marketo_detail section .products .product span a, .marketo_more section .products .product span a {
+        color: #999999; }
+    .marketo section .products .product h4, .marketo_detail section .products .product h4, .marketo_more section .products .product h4 {
+      font-size: 1.14286em;
+      font-weight: 500;
+      margin-bottom: 10px;
+      line-height: 1.625; }
+      .marketo section .products .product h4 a, .marketo_detail section .products .product h4 a, .marketo_more section .products .product h4 a {
+        -webkit-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease; }
+    .marketo section .products .product h4:hover a, .marketo_detail section .products .product h4:hover a, .marketo_more section .products .product h4:hover a {
+      color: #eb3030; }
+    .marketo section .products .product p a, .marketo_detail section .products .product p a, .marketo_more section .products .product p a {
+      color: #eb3030;
+      font-size: 16px; }
+  .marketo section .products .product:hover .like-item, .marketo_detail section .products .product:hover .like-item, .marketo_more section .products .product:hover .like-item {
+    opacity: 1; }
+  .marketo section .products .product:hover img, .marketo_detail section .products .product:hover img, .marketo_more section .products .product:hover img {
+    opacity: 0.7; }
+  .marketo section .icon-box ul, .marketo_detail section .icon-box ul, .marketo_more section .icon-box ul {
+    -webkit-box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.08);
+    padding: 20px 28px; }
+    .marketo section .icon-box ul li, .marketo_detail section .icon-box ul li, .marketo_more section .icon-box ul li {
+      width: 20%;
+      padding: 10px;
+      border-right: 1px solid #eaeaea; }
+      .marketo section .icon-box ul li i, .marketo_detail section .icon-box ul li i, .marketo_more section .icon-box ul li i {
+        font-size: 34px;
+        color: #eb3030; }
+      .marketo section .icon-box ul li h4, .marketo_detail section .icon-box ul li h4, .marketo_more section .icon-box ul li h4 {
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: -.3px;
+        margin-bottom: 0; }
+      .marketo section .icon-box ul li span, .marketo_detail section .icon-box ul li span, .marketo_more section .icon-box ul li span {
+        color: #626060;
+        font-size: 12px; }
+  .marketo section .categories .heartland, .marketo_detail section .categories .heartland, .marketo_more section .categories .heartland {
+    background: #f7f7f7; }
+    .marketo section .categories .heartland .heartland-head, .marketo_detail section .categories .heartland .heartland-head, .marketo_more section .categories .heartland .heartland-head {
+      padding: 30px 30px; }
+      .marketo section .categories .heartland .heartland-head h5 a, .marketo_detail section .categories .heartland .heartland-head h5 a, .marketo_more section .categories .heartland .heartland-head h5 a {
+        color: #eb3030;
+        display: inline-block;
+        -webkit-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        font-size: 20px;
+        font-weight: 400; }
+      .marketo section .categories .heartland .heartland-head h4, .marketo_detail section .categories .heartland .heartland-head h4, .marketo_more section .categories .heartland .heartland-head h4 {
+        font-weight: bold;
+        font-size: 2em; }
+        .marketo section .categories .heartland .heartland-head h4 a, .marketo_detail section .categories .heartland .heartland-head h4 a, .marketo_more section .categories .heartland .heartland-head h4 a {
+          color: #222;
+          display: block;
+          margin-top: 4px;
+          -webkit-transition: all 0.4s ease;
+          -o-transition: all 0.4s ease;
+          transition: all 0.4s ease; }
+    .marketo section .categories .heartland .heartland-img, .marketo_detail section .categories .heartland .heartland-img, .marketo_more section .categories .heartland .heartland-img {
+      max-height: 423px;
+      min-height: 424px;
+      overflow: hidden; }
+      .marketo section .categories .heartland .heartland-img img, .marketo_detail section .categories .heartland .heartland-img img, .marketo_more section .categories .heartland .heartland-img img {
+        height: 404px !important;
+        padding-bottom: 30px;
+        float: right;
+        padding-right: 30px;
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s;
+        width: auto; }
+  .marketo section .categories .heartland-xs, .marketo_detail section .categories .heartland-xs, .marketo_more section .categories .heartland-xs {
+    background: #f7f7f7;
+    position: relative;
+    margin-bottom: 30px;
+    cursor: pointer;
+    overflow: hidden; }
+    .marketo section .categories .heartland-xs img, .marketo_detail section .categories .heartland-xs img, .marketo_more section .categories .heartland-xs img {
+      height: 149px;
+      float: right;
+      width: auto;
+      background: #F7F7F7;
+      -webkit-transition: -webkit-transform 0.6s cubic-bezier(0, 0, 0.44, 1.18);
+      transition: -webkit-transform 0.6s cubic-bezier(0, 0, 0.44, 1.18);
+      -o-transition: transform 0.6s cubic-bezier(0, 0, 0.44, 1.18);
+      transition: transform 0.6s cubic-bezier(0, 0, 0.44, 1.18);
+      transition: transform 0.6s cubic-bezier(0, 0, 0.44, 1.18), -webkit-transform 0.6s cubic-bezier(0, 0, 0.44, 1.18);
+      -webkit-transform: scale3d(1, 1, 1);
+      transform: scale3d(1, 1, 1); }
+    .marketo section .categories .heartland-xs .heartland-head-xs, .marketo_detail section .categories .heartland-xs .heartland-head-xs, .marketo_more section .categories .heartland-xs .heartland-head-xs {
+      position: relative;
+      padding: 30px;
+      padding-bottom: 15px;
+      min-height: 110px; }
+      .marketo section .categories .heartland-xs .heartland-head-xs h5 a, .marketo_detail section .categories .heartland-xs .heartland-head-xs h5 a, .marketo_more section .categories .heartland-xs .heartland-head-xs h5 a {
+        color: #eb3030;
+        font-weight: 300;
+        font-size: 16px;
+        display: inline-block;
+        -webkit-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease; }
+      .marketo section .categories .heartland-xs .heartland-head-xs h4, .marketo_detail section .categories .heartland-xs .heartland-head-xs h4, .marketo_more section .categories .heartland-xs .heartland-head-xs h4 {
+        font-weight: 900; }
+  .marketo section .categories .heartland-xs:hover img, .marketo_detail section .categories .heartland-xs:hover img, .marketo_more section .categories .heartland-xs:hover img {
+    transform: scale3d(1.1, 1.1, 1.1); }
+  .marketo section .categories .heartland:hover img, .marketo_detail section .categories .heartland:hover img, .marketo_more section .categories .heartland:hover img {
+    transform: scale3d(1.1, 1.1, 1.1); }
+  .marketo section article, .marketo_detail section article, .marketo_more section article {
+    background-color: #f9f9f9;
+    padding: 80px 0; }
+    .marketo section article .marketplace .news, .marketo_detail section article .marketplace .news, .marketo_more section article .marketplace .news {
+      -webkit-transition: all 0.4s ease;
+      -o-transition: all 0.4s ease;
+      transition: all 0.4s ease; }
+      .marketo section article .marketplace .news .news-content, .marketo_detail section article .marketplace .news .news-content, .marketo_more section article .marketplace .news .news-content {
+        padding: 30px;
+        background-color: #FFFFFF; }
+        .marketo section article .marketplace .news .news-content h4, .marketo_detail section article .marketplace .news .news-content h4, .marketo_more section article .marketplace .news .news-content h4 {
+          font-size: 1.28571em;
+          line-height: 1.5;
+          letter-spacing: -.3px;
+          margin-bottom: 20px; }
+        .marketo section article .marketplace .news .news-content p a, .marketo_detail section article .marketplace .news .news-content p a, .marketo_more section article .marketplace .news .news-content p a {
+          color: #eb3030; }
+        .marketo section article .marketplace .news .news-content span i, .marketo_detail section article .marketplace .news .news-content span i, .marketo_more section article .marketplace .news .news-content span i {
+          color: #999999;
+          font-size: 1.14286em;
+          padding-right: 8px;
+          position: relative; }
+        .marketo section article .marketplace .news .news-content span a, .marketo_detail section article .marketplace .news .news-content span a, .marketo_more section article .marketplace .news .news-content span a {
+          font-size: 0.71429em;
+          color: #999999;
+          display: inline-block; }
+    .marketo section article .marketplace .news:hover, .marketo_detail section article .marketplace .news:hover, .marketo_more section article .marketplace .news:hover {
+      -webkit-box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.08);
+      box-shadow: 0 15px 20px 0 rgba(0, 0, 0, 0.08); }
+  .marketo section aside, .marketo_detail section aside, .marketo_more section aside {
+    padding: 50px 0; }
+    .marketo section aside img, .marketo_detail section aside img, .marketo_more section aside img {
+      width: 120px;
+      opacity: 0.5;
+      -webkit-transition: all 0.4s ease;
+      -o-transition: all 0.4s ease;
+      transition: all 0.4s ease; }
+    .marketo section aside .col-md-4:hover img, .marketo_detail section aside .col-md-4:hover img, .marketo_more section aside .col-md-4:hover img {
+      opacity: 1; }
+  .marketo section .newsletter, .marketo_detail section .newsletter, .marketo_more section .newsletter {
+    background: #2ed3bd;
+    padding: 70px 0; }
+    .marketo section .newsletter .newsletter-content, .marketo_detail section .newsletter .newsletter-content, .marketo_more section .newsletter .newsletter-content {
+      color: white; }
+      .marketo section .newsletter .newsletter-content i, .marketo_detail section .newsletter .newsletter-content i, .marketo_more section .newsletter .newsletter-content i {
+        font-size: 3.57143em; }
+      .marketo section .newsletter .newsletter-content h4, .marketo_detail section .newsletter .newsletter-content h4, .marketo_more section .newsletter .newsletter-content h4 {
+        font-size: 1.85714em;
+        font-weight: 400;
+        letter-spacing: -.3px; }
+    .marketo section .newsletter input, .marketo_detail section .newsletter input, .marketo_more section .newsletter input {
+      height: 52px;
+      border: 2px solid rgba(0, 0, 0, 0.1);
+      padding-left: 30px;
+      border-radius: 4px 0 0 4px;
+      border-right: 0;
+      background-color: #FFFFFF; }
+    .marketo section .newsletter button, .marketo_detail section .newsletter button, .marketo_more section .newsletter button {
+      height: 52px;
+      background: #333e48;
+      letter-spacing: .3px;
+      text-transform: uppercase;
+      font-weight: 500;
+      border: 0;
+      font-size: 0.85714em;
+      color: #FFFFFF;
+      padding: 0 50px;
+      display: inline-block;
+      float: right;
+      cursor: pointer;
+      -webkit-transition: all 0.4s ease;
+      -o-transition: all 0.4s ease;
+      transition: all 0.4s ease; }
+  .marketo footer, .marketo_detail footer, .marketo_more footer {
+    padding-top: 65px;
+    position: relative; }
+    .marketo footer .footer-top h3, .marketo_detail footer .footer-top h3, .marketo_more footer .footer-top h3 {
+      font-size: 1.28571em;
+      font-weight: 500;
+      margin-bottom: 25px; }
+    .marketo footer .footer-top ul li, .marketo_detail footer .footer-top ul li, .marketo_more footer .footer-top ul li {
+      margin-bottom: 12px; }
+      .marketo footer .footer-top ul li a, .marketo_detail footer .footer-top ul li a, .marketo_more footer .footer-top ul li a {
+        font-weight: 300;
+        color: #777777;
+        -webkit-transition: all 0.4s ease;
+        -o-transition: all 0.4s ease;
+        transition: all 0.4s ease;
+        background: transparent;
+        padding: 0; }
+    .marketo footer .footer-top h5, .marketo_detail footer .footer-top h5, .marketo_more footer .footer-top h5 {
+      font-size: 1.57143em;
+      color: #999999;
+      font-weight: 300;
+      line-height: 1.454;
+      margin-bottom: 12px; }
+      .marketo footer .footer-top h5 strong, .marketo_detail footer .footer-top h5 strong, .marketo_more footer .footer-top h5 strong {
+        color: #444444;
+        font-weight: 500; }
+    .marketo footer .footer-top small, .marketo_detail footer .footer-top small, .marketo_more footer .footer-top small {
+      color: #777777;
+      margin-bottom: 12px;
+      font-size: 13.6px; }
+    .marketo footer .footer-top a, .marketo_detail footer .footer-top a, .marketo_more footer .footer-top a {
+      background: #eb3030;
+      display: block;
+      font-size: 13px;
+      font-weight: 500;
+      padding: 16px 35px;
+      letter-spacing: .3px;
+      position: relative;
+      width: 180px;
+      -webkit-transition: all .6s ease;
+      -o-transition: all .6s ease;
+      transition: all .6s ease;
+      color: #FFFFFF;
+      line-height: 1.5;
+      border-radius: .25rem; }
+  .marketo .footer-bottom, .marketo_detail .footer-bottom, .marketo_more .footer-bottom {
+    background-color: #f8f8f8;
+    padding: 30px 0; }
+    .marketo .footer-bottom li, .marketo_detail .footer-bottom li, .marketo_more .footer-bottom li {
+      margin-right: 30px; }
+
+.marketo_detail nav, .marketo_more nav {
+  box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.05); }
+.marketo_detail section nav, .marketo_more section nav {
+  box-shadow: none;
+  background-color: #f9f9f9;
+  padding: 20px 0;
+  min-height: 80px; }
+  .marketo_detail section nav ol, .marketo_more section nav ol {
+    background: transparent; }
+.marketo_detail section .urun .bordered, .marketo_more section .urun .bordered {
+  border: 1px solid #d7d7d7;
+  width: 160px;
+  margin-right: 30px; }
+.marketo_detail section .urun .urun-product h1, .marketo_more section .urun .urun-product h1 {
+  font-size: 1.57143em;
+  margin-bottom: 10px; }
+.marketo_detail section .urun .urun-product .collection, .marketo_more section .urun .urun-product .collection {
+  font-size: 14px;
+  margin-right: 10px; }
+  .marketo_detail section .urun .urun-product .collection a, .marketo_more section .urun .urun-product .collection a {
+    font-size: 14px; }
+  .marketo_detail section .urun .urun-product .collection a:hover, .marketo_more section .urun .urun-product .collection a:hover {
+    color: #eb3030; }
+.marketo_detail section .urun .urun-product .rates span, .marketo_more section .urun .urun-product .rates span {
+  color: #777777;
+  margin-left: 16px; }
+.marketo_detail section .urun .urun-product .rates .rate, .marketo_more section .urun .urun-product .rates .rate {
+  margin-left: 0; }
+  .marketo_detail section .urun .urun-product .rates .rate i, .marketo_more section .urun .urun-product .rates .rate i {
+    font-size: 0.85714em;
+    color: #fed700; }
+.marketo_detail section .urun .urun-product .price span, .marketo_more section .urun .urun-product .price span {
+  color: #eb3030;
+  font-size: 23px;
+  display: block; }
+.marketo_detail section .urun .urun-product .frame-color .frame-header, .marketo_more section .urun .urun-product .frame-color .frame-header {
+  margin-right: 39px;
+  font-weight: 500;
+  width: 12px; }
+.marketo_detail section .urun .urun-product .frame-color .radius, .marketo_more section .urun .urun-product .frame-color .radius {
+  border-radius: 50% !important;
+  min-width: auto !important;
+  height: 36px !important;
+  width: 36px !important;
+  line-height: 35px !important;
+  text-align: center;
+  padding: 0;
+  color: #222222;
+  font-weight: 500;
+  font-size: 12px;
+  border: 2px solid #00000017;
+  -webkit-transition: .4s;
+  -o-transition: .4s;
+  transition: .4s;
+  margin-right: 10px; }
+.marketo_detail section .urun .urun-product .frame-color .black, .marketo_more section .urun .urun-product .frame-color .black {
+  background: black; }
+.marketo_detail section .urun .urun-product .frame-color .pink, .marketo_more section .urun .urun-product .frame-color .pink {
+  background-color: lightsalmon; }
+.marketo_detail section .urun .urun-product .frame-color .blue, .marketo_more section .urun .urun-product .frame-color .blue {
+  background-color: lightblue; }
+.marketo_detail section .urun .urun-product .add-to-cart .number, .marketo_more section .urun .urun-product .add-to-cart .number {
+  border: 1px solid rgba(129, 129, 129, 0.2); }
+  .marketo_detail section .urun .urun-product .add-to-cart .number input, .marketo_more section .urun .urun-product .add-to-cart .number input {
+    height: 100%;
+    border: 0;
+    text-align: center;
+    font-size: 15px;
+    pointer-events: none;
+    -webkit-appearance: none;
+    width: 60px;
+    font-weight: 400;
+    color: #777777; }
+  .marketo_detail section .urun .urun-product .add-to-cart .number span, .marketo_more section .urun .urun-product .add-to-cart .number span {
+    float: left;
+    width: 43px;
+    height: 100%;
+    line-height: 45px;
+    cursor: pointer;
+    -webkit-transition: all .4s ease;
+    -o-transition: all .4s ease;
+    transition: all .4s ease;
+    background-color: #f9f9f9;
+    text-align: center; }
+  .marketo_detail section .urun .urun-product .add-to-cart .number .add, .marketo_more section .urun .urun-product .add-to-cart .number .add {
+    float: right; }
+.marketo_detail section .urun .urun-product .add-to-cart ul li, .marketo_more section .urun .urun-product .add-to-cart ul li {
+  margin-right: 15px; }
+  .marketo_detail section .urun .urun-product .add-to-cart ul li button, .marketo_more section .urun .urun-product .add-to-cart ul li button {
+    border: 0;
+    border-radius: .25rem;
+    display: inline-block;
+    font-size: 13px;
+    font-weight: 300;
+    padding: 16px 35px;
+    letter-spacing: .3px;
+    background: #007bff;
+    overflow: hidden;
+    -webkit-transition: all .6s ease;
+    -o-transition: all .6s ease;
+    transition: all .6s ease;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    color: #FFFFFF; }
+.marketo_detail section .urun .urun-product .add-to-cart ul .heart, .marketo_more section .urun .urun-product .add-to-cart ul .heart {
+  width: 52px;
+  height: 52px;
+  line-height: 52px;
+  display: inline-block;
+  border: 1px solid #eaeaea;
+  border-radius: 4px;
+  color: #999999;
+  font-size: 1.14286em;
+  text-align: center; }
+.marketo_detail section .description nav, .marketo_more section .description nav {
+  background: transparent; }
+  .marketo_detail section .description nav .active, .marketo_more section .description nav .active {
+    color: #eb3030;
+    background: transparent;
+    font-weight: 500;
+    border-bottom: 2px solid #eb3030;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0; }
+  .marketo_detail section .description nav a, .marketo_more section .description nav a {
+    border: 0;
+    font-weight: 500; }
+  .marketo_detail section .description nav a:hover, .marketo_more section .description nav a:hover {
+    border: 0;
+    border-bottom: 2px solid #eb3030;
+    color: #eb3030; }
+.marketo_detail section .description .spn-review, .marketo_more section .description .spn-review {
+  padding: 24px;
+  border: 1px solid #ECECEC; }
+  .marketo_detail section .description .spn-review .spn-header, .marketo_more section .description .spn-review .spn-header {
+    border-bottom: 1px solid #ececec; }
+    .marketo_detail section .description .spn-review .spn-header h2, .marketo_more section .description .spn-review .spn-header h2 {
+      font-size: 24px;
+      margin: 0 0 12px 0; }
+    .marketo_detail section .description .spn-review .spn-header .rates span, .marketo_more section .description .spn-review .spn-header .rates span {
+      color: #777777;
+      margin-left: 16px; }
+    .marketo_detail section .description .spn-review .spn-header .rates .rate, .marketo_more section .description .spn-review .spn-header .rates .rate {
+      margin-left: 0; }
+      .marketo_detail section .description .spn-review .spn-header .rates .rate i, .marketo_more section .description .spn-review .spn-header .rates .rate i {
+        font-size: 0.85714em;
+        color: #fed700; }
+    .marketo_detail section .description .spn-review .spn-header a button, .marketo_more section .description .spn-review .spn-header a button {
+      color: #fff;
+      border: 1px solid #eb3030;
+      padding: 5px 15px;
+      background: #eb3030; }
+  .marketo_detail section .description .spn-review .spn-content i, .marketo_more section .description .spn-review .spn-content i {
+    font-size: 0.85714em;
+    color: #fed700; }
+  .marketo_detail section .description .spn-review .spn-content h3, .marketo_more section .description .spn-review .spn-content h3 {
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    padding: 0;
+    border: none; }
+  .marketo_detail section .description .spn-review .spn-content strong, .marketo_more section .description .spn-review .spn-content strong {
+    opacity: 0.5;
+    font-weight: 500;
+    color: #eb3030; }
+  .marketo_detail section .description .spn-review .spn-content p, .marketo_more section .description .spn-review .spn-content p {
+    font-size: 13px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0; }
+.marketo_detail section .related, .marketo_more section .related {
+  background-color: #f9f9f9;
+  padding: 80px 0; }
+  .marketo_detail section .related h2, .marketo_more section .related h2 {
+    font-size: 1.57143em; }
+
+.marketo_more section .shop-list {
+  padding: 15px 20px;
+  border: 1px solid #eaeaea;
+  margin-bottom: 30px; }
+  .marketo_more section .shop-list ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    .marketo_more section .shop-list ul h6 {
+      font-size: 1em;
+      margin-bottom: 0;
+      font-weight: 400;
+      padding-right: 20px;
+      margin-top: 2px; }
+
+/*# sourceMappingURL=marketo.css.map */
